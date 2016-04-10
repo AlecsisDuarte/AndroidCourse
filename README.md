@@ -1,4 +1,4 @@
 # AndroidCourse
-Repository made to store all apps I might need in a future
+The purpose of this repository is to store all the material used for Android Certification for future reference.
 
-All this apps were obtained through and Android Course made by Omnius.com.mx
+This code was provided from Omnius.com.mx which provided the Android certification course
