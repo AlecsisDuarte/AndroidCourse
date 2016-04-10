@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CreacionDeActividadesApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_segunda">SegundaActivity</string>
+    <string name="texto_textView">Elemento TextView</string>
+    <string name="texto_editText">Elemento EditText</string>
+    <string name="texto_button">Elemento botón</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ServiciosApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_servicio_iniciado">ServicioIniciadoActivity</string>
+    <string name="title_activity_servicio_vinculado">ServicioVinculadoActivity</string>
+</resources>

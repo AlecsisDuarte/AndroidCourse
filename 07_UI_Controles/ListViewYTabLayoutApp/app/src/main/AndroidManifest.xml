@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.com.omnius.listviewytablayoutapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".listas.ListaSimpleActivity"
+            android:label="@string/title_activity_lista_simple" >
+        </activity>
+        <activity
+            android:name=".listas.ListaPersonalizadaActivity"
+            android:label="@string/title_activity_lista_personalizada" >
+
+        </activity>
+        <activity
+            android:name=".TabLayout.TabLayoutActivity"
+            android:label="@string/title_activity_tab_layout" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
