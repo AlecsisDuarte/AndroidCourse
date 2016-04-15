@@ -1,0 +1,81 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margen_actividad"
+    tools:context=".MainActivity"
+    android:background="@color/blanco">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margen_elemento_interfaz"
+            android:text="@string/texto_usuario"
+            android:textColor="@color/azul"/>
+
+        <EditText
+            android:id="@+id/edit_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margen_elemento_interfaz"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear1">
+
+        <TextView
+            android:id="@+id/text_contrasena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margen_elemento_interfaz"
+            android:text="@string/texto_contrasena"
+            android:textColor="@color/naranja"/>
+
+        <EditText
+            android:id="@+id/edit_contrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margen_elemento_interfaz"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margen_elemento_interfaz"
+        android:text="@string/texto_seleccionar"
+        android:layout_below="@+id/linear2"/>
+
+    <Spinner
+        style="@android:style/Widget.Spinner"
+        android:id="@+id/spinner"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_color"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/elementos_colores"/>
+
+    <Button
+        android:id="@+id/button_presionar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_boton"
+        android:layout_alignTop="@+id/spinner"
+        android:layout_alignRight="@+id/linear2"
+        android:layout_alignEnd="@+id/linear2"/>
+
+</RelativeLayout>

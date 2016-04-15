@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ServidorBluetoothApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="mensaje_no_bluetooth">No se ha encontrado un dispostivo Bluetooth</string>
+    <string name="mensaje_bluetooth_on">Estado : Bluetooth habilitado</string>
+    <string name="mensaje_bluetooth_off">Estado : Bluetooth deshabilitado</string>
+    <string name="mensaje_visible_on">Estado : modo visible</string>
+    <string name="mensaje_visible_off">Estado : esperando conexiones</string>
+    <string name="mensaje_cliente_conectado">Estado : Bluetooth cliente conectado</string>
+    <string name="mensaje_error_modo_visible">Estado : Error al pasar a modo visible</string>
+</resources>

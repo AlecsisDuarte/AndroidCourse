@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MenusApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="accion_contactos">Ver contactos</string>
+    <string name="accion_navegador">Abrir navegador</string>
+    <string name="accion_mapa">Abrir Mapa</string>
+    <string name="accion_llamar">Realizar llamada</string>
+    <string name="texto_menu_contextual">Menú contextual</string>
+    <string name="texto_menu_popup">Menu Popup</string>
+</resources>

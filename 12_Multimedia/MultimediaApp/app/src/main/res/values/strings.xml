@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MultimediaApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_audio">AudioActivity</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_camara">CamaraActivity</string>
+    <string name="texto_tomar_foto">Tomar foto</string>
+    <string name="title_activity_video_vview">VideoVViewActivity</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ClienteBluetoothApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_enviar">Enviar</string>
+    <string name="edit_mensaje">Mensaje...</string>
+    <string name="mensaje_no_bluetooth">No se ha encontrado un dispostivo Bluetooth</string>
+    <string name="mensaje_intento_conexion">Realizando conexión</string>
+    <string name="mensaje_descubriendo">Iniciando descubrimiento de dispositivos</string>
+    <string name="mensaje_conexion_ok">Conexión establecida</string>
+    <string name="mensaje_conexion_error">Error al intentar conectar</string>
+    <string name="mensaje_no_dispositivos">No se encontraron dispositivos</string>
+    <string name="mensaje_busqueda_finalizada">Busqueda de dispositivos nuevos terminada</string>
+    <string name="mensaje_bluetooth_on">Bluetooth habilitado...</string>
+    <string name="mensaje_bluetooth_off">Bluetooth deshabilitado...</string>
+    <string name="mensaje_sin_conexion">Conexion no establecida con dispositivo</string>
+</resources>
