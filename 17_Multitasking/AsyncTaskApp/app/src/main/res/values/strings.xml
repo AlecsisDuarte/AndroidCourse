@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">AsyncTaskApp</string>
-
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="text_button_iniciar">Iniciar</string>
-    <string name="text_textview_lineas">Lineas leidas : </string>
-</resources>
