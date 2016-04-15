@@ -36,22 +36,24 @@ public class SegundaActivity extends AppCompatActivity {
     private View.OnClickListener eventoBoton = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
+            Intent intent = null;
             if (v == button1) {
-                Intent intent = new Intent(SegundaActivity.this, MainActivity.class);
+                intent = new Intent(SegundaActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             } else if (v == button2) {
-                Intent intent = new Intent(SegundaActivity.this, MainActivity.class);
+                intent = new Intent(SegundaActivity.this, MainActivity.class);
                 intent.putExtra("valor1", "Este es un dato");
                 intent.putExtra("valor2", 1);
-                startActivity(intent);
             } else if (v == button3) {
-                Intent intent = new Intent(ACTION_VIEW, Uri.parse("http://omnius.com.mx"));
-                startActivity(intent);
+                intent = new Intent(ACTION_VIEW, Uri.parse("http://omnius.com.mx"));
             } else if (v == button4) {
-                Intent intent = new Intent(ACTION_VIEW, Uri.parse("tel:55555555"));
-                startActivity(intent);
+                intent = new Intent(ACTION_VIEW, Uri.parse("tel:55555555"));
+
             }
+
+            if (intent != null)
+                startActivity(intent);
         }
     };
 
