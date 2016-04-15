@@ -21,7 +21,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/texto_nombre"
-                android:layout_margin="@dimen/margen_elemento"
+                android:layout_marginTop="@dimen/margen_elemento"
+                android:layout_marginLeft="@dimen/margen_elemento"
                 android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
 
             <TextView

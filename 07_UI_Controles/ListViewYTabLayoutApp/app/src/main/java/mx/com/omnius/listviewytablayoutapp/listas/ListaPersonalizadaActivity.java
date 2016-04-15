@@ -25,8 +25,7 @@ public class ListaPersonalizadaActivity extends Activity {
         String[] elementos_descripcion = getResources().getStringArray(R.array.elementos_descripcion);
         int[] elementos_imagenes = {R.drawable.ic_android,R.drawable.ic_ios,R.drawable.ic_windows, R.drawable.ic_bb, R.drawable.ic_sym};
 
-        final AdaptadorLista adaptadorLista = new AdaptadorLista(this, android.R.layout.simple_list_item_2,R.id.text_descripcion, elementos_nombres);
-        adaptadorLista.setContext(this);
+        final AdaptadorLista adaptadorLista = new AdaptadorLista(this, R.layout.vista_lista_personalizada, elementos_nombres);
         adaptadorLista.setNombres(elementos_nombres);
         adaptadorLista.setDescripciones(elementos_descripcion);
         adaptadorLista.setIdFotos(elementos_imagenes);
@@ -35,7 +34,7 @@ public class ListaPersonalizadaActivity extends Activity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Log.e("", "Elemento precionado " + adaptadorLista.getItem(position));
+                Log.e(ListaPersonalizadaActivity.class.getSimpleName(), "Elemento precionado " + parent.getItemAtPosition(position));
             }
         });
     }

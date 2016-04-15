@@ -31,7 +31,7 @@ public class ListaSimpleActivity extends Activity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Log.e("", "Elemento precionado "+miArrayAdapter.getItem(position));
+                Log.e(ListaSimpleActivity.class.getSimpleName(), "Elemento precionado "+parent.getItemAtPosition(position);
             }
         });
     }
